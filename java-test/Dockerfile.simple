@@ -1,0 +1,4 @@
+FROM ubuntu:lunar
+WORKDIR /app
+COPY ./HelloWorld.java ./HelloWorld.java
+RUN apt update && apt install default-jdk
